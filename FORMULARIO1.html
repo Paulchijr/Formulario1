@@ -1,10 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>FORMULARIO</title>
+    <title>DEBER 1</title>
 </head>
 <body>
+<h1 style="color:red;">FORMULARIO</h1>
+<br>
+<form>
+    <h2 style="color:red;"> USUARIO Y CONTRASEÑA</h2>
+    <div>
+        <fieldset>
+        <label for="Correo">Usuario:</label><br>
+        <input type="text" id="Correo" name="Correo"><br>
+        <label for="Contraseña">Contraseña:</label><br>
+        <input type="password" id="Contraseña" name="Contraseña"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+        </fieldset>
+    </div>
+    <br>
+    <div>
+    <h2 style="color:red"> DATOS PERSONALES</h2>
+        <fieldset>
+            <label for="ID">Escriba su cedula:</label><br>
+            <input type="text" id="ID" name="ID"><br>
+            <label for="Nombre">Escriba su nomrbre:</label><br>
+            <input type="text" id="Nombre" name="Nombre"><br>
+            <label for="Apellido">Escriba su apellido:</label><br>
+            <input type="text" id="Apellido" name="Apellido"><br>
+            <label for="Fecha">Ingresa tu fecha de nacimiento:</label><br>
+            <input type="date" id="Fecha" name="Fecha" max="2023-12-31"><br>
+        <br>
 
+        <label>Elija su sexo:</label><br>
+        <input type="radio" id="Masculino" name="fav_language" value="Masculino">
+        <label for="Masculino">Masculino</label><br>
+        <input type="radio" id="Femenino" name="fav_language" value="Femenino">
+        <label for="Femenino">Femenino</label><br>
+        <input type="radio" id="Otro" name="fav_language" value="Otro">
+        <label for="Otro">Otro</label><br>
+            <br>
+            <label for ="Universidad">Elija su Universidad:</label><br>
+        <select id="Universidad" name="Universidad">
+            <option value="1">Universidad de Guayaquil</option>
+            <option value="2">Universidad Catolica</option>
+            <option value="3">Universidad Politectica Salesiana</option>
+            <option value="4">Universidad Ecotec</option><br>
+        </select>
+        </fieldset>
+    </div>
+    </form>
 </body>
 </html>
